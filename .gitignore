@@ -119,3 +119,4 @@ dist
 .env.development
 .env.production
 
+/app/
