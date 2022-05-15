@@ -95,7 +95,7 @@
 	],
 	"variable": [
 		{
-			"id": "6b52413b-9a90-4738-8c8a-b23e98e31911",
+			"id": "223315ea-afcf-43e1-b997-495172f2a4f1",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
