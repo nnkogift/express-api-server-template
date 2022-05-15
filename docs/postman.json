@@ -66,6 +66,65 @@
 							"body": "Hello World"
 						}
 					]
+				},
+				{
+					"name": "Hello with parameter",
+					"id": "5e4c35a6-8ca5-44e1-9be0-bd93ea5efe4e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{server_url}}/"
+					},
+					"response": [
+						{
+							"id": "46b24295-e714-41cf-bdc7-df7e2ce3c992",
+							"name": "Hello",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server_url}}/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "11"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b-Ck1VqNd45QIvq3AZd8XYQLvEhtA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:15:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello World"
+						}
+					]
 				}
 			],
 			"id": "19e78d3e-61a4-4451-ba5c-9688f7653044"
@@ -95,7 +154,7 @@
 	],
 	"variable": [
 		{
-			"id": "223315ea-afcf-43e1-b997-495172f2a4f1",
+			"id": "5ff0dc7c-6c5b-41e3-b64b-564773c2aa53",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
