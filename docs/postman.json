@@ -138,6 +138,65 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": "Hello World"
+						},
+						{
+							"id": "5b2123d8-62e7-44b8-84a3-31d596246038",
+							"name": "Hello with parameter",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/?name=Express",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										""
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Express"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "13"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d-oPRzYb9qK1AQJa1lUfQSoZqXcws\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:16:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello Express"
 						}
 					]
 				}
@@ -169,7 +228,7 @@
 	],
 	"variable": [
 		{
-			"id": "bddfaa0b-ba39-441a-8ab6-3f7630599d31",
+			"id": "b4937479-6829-4822-9daf-2faf53ba1b8e",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
