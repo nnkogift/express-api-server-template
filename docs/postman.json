@@ -9,7 +9,7 @@
 			"name": "Hello",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Hello",
 					"id": "f37b3d7e-62e1-4740-a038-1915cac46c28",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
