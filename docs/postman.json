@@ -19,7 +19,53 @@
 						"header": [],
 						"url": "{{server_url}}/"
 					},
-					"response": []
+					"response": [
+						{
+							"id": "965a4788-c423-42b7-80c2-c48246f6bb21",
+							"name": "Hello",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server_url}}/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "11"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b-Ck1VqNd45QIvq3AZd8XYQLvEhtA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:15:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello World"
+						}
+					]
 				}
 			],
 			"id": "19e78d3e-61a4-4451-ba5c-9688f7653044"
@@ -49,7 +95,7 @@
 	],
 	"variable": [
 		{
-			"id": "0e9ccd38-9d50-40d8-ae2f-6b1e6a94b3ff",
+			"id": "6b52413b-9a90-4738-8c8a-b23e98e31911",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
