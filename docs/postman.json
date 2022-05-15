@@ -76,7 +76,22 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{server_url}}/"
+						"url": {
+							"raw": "{{server_url}}/?name=Express",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Express",
+									"type": "text"
+								}
+							]
+						}
 					},
 					"response": [
 						{
@@ -154,7 +169,7 @@
 	],
 	"variable": [
 		{
-			"id": "5ff0dc7c-6c5b-41e3-b64b-564773c2aa53",
+			"id": "bddfaa0b-ba39-441a-8ab6-3f7630599d31",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
