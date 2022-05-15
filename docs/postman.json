@@ -16,7 +16,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{server_url}}/"
 					},
 					"response": []
 				}
@@ -48,7 +49,7 @@
 	],
 	"variable": [
 		{
-			"id": "ce6bae96-1a0e-47d7-be94-72bcfb11d0a4",
+			"id": "0e9ccd38-9d50-40d8-ae2f-6b1e6a94b3ff",
 			"key": "server_url",
 			"value": "http://localhost:3000",
 			"type": "string"
