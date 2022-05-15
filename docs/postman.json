@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "4036143e-3eb9-4847-8d1e-bb26ed049fd8",
+		"name": "Minimal Express Server API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"item": [
+				{
+					"name": "Hello",
+					"id": "f37b3d7e-62e1-4740-a038-1915cac46c28",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{server_url}}/"
+					},
+					"response": [
+						{
+							"id": "965a4788-c423-42b7-80c2-c48246f6bb21",
+							"name": "Hello",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server_url}}/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "11"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b-Ck1VqNd45QIvq3AZd8XYQLvEhtA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:15:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello World"
+						}
+					]
+				},
+				{
+					"name": "Hello with parameter",
+					"id": "5e4c35a6-8ca5-44e1-9be0-bd93ea5efe4e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server_url}}/?name=Express",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Express",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "46b24295-e714-41cf-bdc7-df7e2ce3c992",
+							"name": "Hello",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server_url}}/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "11"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b-Ck1VqNd45QIvq3AZd8XYQLvEhtA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:15:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello World"
+						},
+						{
+							"id": "5b2123d8-62e7-44b8-84a3-31d596246038",
+							"name": "Hello with parameter",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server_url}}/?name=Express",
+									"host": [
+										"{{server_url}}"
+									],
+									"path": [
+										""
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Express"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "13"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d-oPRzYb9qK1AQJa1lUfQSoZqXcws\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 15 May 2022 16:16:47 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "Hello Express"
+						}
+					]
+				}
+			],
+			"id": "19e78d3e-61a4-4451-ba5c-9688f7653044"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "6fcb33d6-6752-4ab0-8ad1-a10cc477affe",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ca69e4a5-b5b7-4fa3-b5f2-4be025e8972c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "7671537b-f38b-4e4e-9c8c-614a9ef3042d",
+			"key": "server_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
