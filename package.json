@@ -8,12 +8,14 @@
   "private": false,
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.16"
   },
   "scripts": {
     "start": "node --loader ts-node/esm ./src/index.ts",
     "build": "yarn webpack",
-    "postbuild":"./app_build.sh"
+    "start:dev": "nodemon",
+    "postbuild": "./app_build.sh"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
