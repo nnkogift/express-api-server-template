@@ -4,6 +4,7 @@
 
 This is a minimal implementation of a RESTful API server using Express.js. It is designed to be used as a starting point
 for building a server. It is set up with necessary build tools and dependencies as well as minimal typescript setup.
+
 ## Usage
 
 To use this template simply click
